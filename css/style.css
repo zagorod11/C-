@@ -1,0 +1,57 @@
+body{
+	box-sizing: border-box;
+	text-align: center;
+}
+.header{
+	background-image: url(../img/nebo.jpg);
+}
+.logo__header-img{
+	border-radius: 30px;
+	margin-top: 15px;	
+}
+
+.menu__list{
+	display: flex;
+	width: 100%;
+	height: 60px;
+	background-color: #c4c4c4;
+	list-style: none;
+	justify-content: center;		;
+	align-items: center;
+	position: relative;
+}
+.menu__list-link{
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;	
+}
+.menu__list-item{
+	padding: 0 50px 0 50px;
+}
+li:hover > .menu__list-pidmenu{
+	display: flex;
+	width: auto;
+	height: auto;
+	background-color: #c4c4c4;
+	position: absolute;
+	padding: 0px 5px 0px 5px;
+}
+
+ a:hover{
+	color: #fff;
+	background-color: #000;
+ }
+.menu__list-pidmenu-link{
+	font-size: 	22px;
+	text-decoration: 	none;
+	line-height: 35px;
+	border-bottom: 	2px solid #fff;	
+}
+.menu__list-pidmenu{
+	display: flex;
+	flex-direction: column;
+}
+.menu__list-pidmenu{
+	display: none;
+}
+ 
